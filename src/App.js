@@ -6,7 +6,7 @@ import ExTrack from './pages/expense-tracker/index';//If you give name in small 
 
 function App() {
   return (
-    <div className="App">
+    <div className="App bg">
       <BrowserRouter>
       <Routes>
         <Route path='/exp' element={<ExTrack/>} />
